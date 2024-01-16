@@ -1,0 +1,32 @@
+.delivery-location-div{
+  background:#0b5e55;
+  height:2.5rem;
+  width:100%;
+  display: flex;
+  align-items: center;
+  color:white;
+  padding-left:1rem;
+}
+
+.delivery-loc_address{
+  display:flex;
+  align-items:center;
+  height:100%;
+  width:100%;
+  font-size:82%;
+}
+
+
+.location-icon{
+  width:1.5rem;
+  height:70%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-icon img{
+  width:100%;
+  height:auto;
+  margin-right:.2rem;
+}

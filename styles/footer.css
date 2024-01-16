@@ -1,0 +1,78 @@
+.footer{
+  height:35vh;
+  background:#020210;
+  overflow: hidden;
+  z-index: -99;
+  display:grid;
+  grid-template-rows: 2fr 1fr 2fr 3fr;
+}
+
+.lang_currency_country{
+  display:flex;
+  color:rgba(255,255,255,.8);
+  justify-content: space-between;
+  font-size:85%;
+  align-items: center;
+  padding:2.7rem .1rem .2rem .1rem;
+}
+
+.user-language{
+  display:flex;
+  align-items: center;
+}
+
+.globe-icon{
+  height:1.2rem;
+  width:1.2rem;
+  margin:0 .5rem;
+  color:white;
+}
+
+.globe-icon img{
+  width:100%;
+  height:auto;
+  object-fit: cover;
+}
+
+
+.user-country{
+  display:flex;
+  margin-right:.5rem;
+}
+.country-flag{
+  height:.5rem;
+  width:1.4rem;
+  margin-right:.3rem;
+}
+
+.country-flag img{
+  width:100%;
+  height:auto;
+  transform: translateY(.1rem);
+}
+
+.switch-account{
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:1.3rem;
+  font-size: 95%;
+}
+
+.sign-out{
+  color:white;
+  font-size:95%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:.7rem;
+}
+
+.copyright-section{
+  color:rgba(255,255,255,.8);
+  font-size:80%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}

@@ -1,0 +1,94 @@
+.orders-main{
+  display:grid;
+  grid-template-rows: 1.2fr 15fr;
+}
+
+.your-orders-div{
+  padding:0 .8rem;
+  font-size: 150%;
+  font-weight: bold;
+  display:flex;
+  align-items: center;
+}
+
+.order-icon_text{
+  display:grid;
+  grid-template-rows: 1.3fr 4fr;
+}
+
+.whitesmoke-background-div{
+  background: #e9edee;
+  display:flex;
+  align-items:flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.your-orders-details-div{
+  margin:3rem;
+  text-align: center;
+  text-align-last:left;
+}
+
+.your-orders-text-green{
+  margin:1.5rem 0;
+  font-weight:bold;
+  font-size:130%;
+  color:#1a8a7d;
+}
+
+.detailed-reason-div{
+  margin:1.5rem 0;
+}
+
+.hr-text{
+  display:flex;
+  justify-content: center;
+  position: absolute;
+  background:rgba(0,0,0,.3);
+  height:.7px;
+  left:3rem;
+  right:3rem;
+  align-items: center;
+}
+
+.hr-text::before{
+  content: "or";
+  position:relative;
+  background:white;
+  padding:.5rem;
+  font-size:90%;
+   color:rgba(0,0,0,.6);
+}
+
+.continue-shopping-button{
+  display:flex;
+  justify-content: center;
+  padding-top:1.7rem;
+  padding-bottom:2rem;
+}
+
+.continue-shopping-button-text{
+  border:.2px solid rgba(0,0,0,.2);
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  padding:1rem 0;
+  border-radius:.5rem;
+  box-shadow:0 2px 5px #e9edee;
+}
+
+.empty-box-image-div{
+  height:90%;
+  width:43vw;
+  position: absolute;
+  bottom:-3.7rem;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.empty-box-image-div img{
+  width:100%;
+  height:auto;
+}

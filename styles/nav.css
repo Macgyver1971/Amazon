@@ -1,0 +1,110 @@
+.nav{
+  background: var(--bg-color);
+  height:3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar_logo{
+  display:flex;
+  align-items: center;
+}
+
+
+.nav-bar{
+  height:3rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:3rem;
+}
+
+.nav-bar .bar{
+  margin-left:.3rem;
+  display:flex;
+  position: relative;
+}
+
+.bar, .bar::before, .bar::after{
+  height:.12rem;
+  width:1.5rem ;
+  background:white;
+  border-radius:.2rem;
+}
+
+.bar::before{
+  content:"";
+  position: absolute;
+  bottom:.55rem;
+}
+.bar::after{
+  content:"";
+  position: absolute;
+  top:.55rem;
+}
+
+.amazon-logo{
+  height:2.6rem;
+  width:6rem;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.amazon-logo img{
+  width:90%;
+  height:auto;
+  margin-top:.3rem;
+}
+
+.user-inter{
+  flex:1;
+  height:90%;
+  display:flex;
+  justify-content: flex-end;
+  margin-right:.5rem;
+  align-items: center;
+}
+
+.user-icon , .cart-icon{
+  height:90%;
+  width:3rem;
+  display:flex;
+  align-items: center;
+  position: relative;
+}
+
+.user-name_icon{
+  width:7rem;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.user-name{
+  color:white;
+  font-size:85%;
+  font-weight: bolder;
+}
+
+.user-icon img{
+  width:90%;
+  margin-right:.2rem;
+}
+
+
+.cart-icon img{
+  width:90%;
+  height:auto;
+  margin-bottom:.2rem;
+}
+
+.cart-icon .counter{
+  position: absolute;
+  color:#ffdfd7;
+  left:1.2rem;
+  bottom:1.23rem;
+  font-size:100%;
+  font-weight: bolder;
+}

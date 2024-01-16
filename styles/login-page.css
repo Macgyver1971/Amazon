@@ -1,0 +1,172 @@
+.nav{
+  background: var(--bg-color);
+  height:3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar_logo{
+  display:flex;
+  align-items: center;
+}
+
+
+
+
+.amazon-logo{
+  margin-left:.5rem;
+  height:2.6rem;
+  width:6rem;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.amazon-logo img{
+  width:90%;
+  height:auto;
+  margin-top:.3rem;
+}
+
+
+.welcome-text{
+  margin:1.5rem .8rem;
+  font-size: 140%;
+  font-weight:bold;
+  color:rgba(0,0,0,.6);
+}
+
+.create-new-account-div{
+  height:auto;
+  background:white;
+  margin:0 1rem;
+  border-radius:.5rem;
+  box-shadow: 2px 2px 3px #d3d3d35a;
+  padding-bottom:3rem;
+  margin-bottom: 1rem;
+}
+
+.create-new-account-text{
+  height:3rem;
+  display:flex;
+  align-items: center;
+  margin:0 1rem;
+  font-weight: bold;
+  font-size:110%;
+}
+
+.create-new-account-text input{
+  margin-right:1rem;
+}
+
+.input-boxes-sign-up{
+  width:100%;
+  padding:0 1rem;
+}
+
+
+.input-boxes-sign-up .sign{
+  display:block;
+  width:100%;
+  height:2rem;
+  margin-top:2rem;
+  border-radius: .3rem;
+  border:none;
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  padding-left:.3rem;
+}
+
+.input-boxes-sign-up .sign:focus{
+  outline: none;
+}
+
+.input-boxes-sign-up .sign::placeholder{
+  font-style: italic;
+}
+
+
+
+
+#continue-button-sign-up,
+#continue-button-sign-in{
+  width:100%;
+  border:none;
+  background:#fed813;
+  height:3rem;
+  font-size:100%;
+  border-radius: .5rem;
+  font-family: 'Amazon Ember', sans-serif;;
+}
+
+.show-password-checkbox-div{
+  display:flex;
+  align-items:center;
+  margin:1.5rem 0 2.5rem 0;
+  gap:.7rem;
+  font-size:85%;
+  color:black;
+}
+
+.aggrement-text{
+  font-size:95%;
+  margin-top:1.3rem;
+}
+
+.account-creation-successful-message{
+  background:#f7f9fbdf;
+  display:none;
+  align-items:center;
+  justify-content: center;
+  position: fixed;
+  right:1rem;
+  left:1rem;
+  top:8rem;
+  height:30vh;
+  border-radius:.5rem;
+  font-size:120%;
+  font-weight:bold;
+  color:rgba(73,60,60,0.4);
+}
+
+.logout-section{
+  display:none;
+  align-items:center;
+  justify-content: center;
+  position:fixed;
+  background:white;
+  top:7rem;
+  right:0;
+  left:0;
+  bottom:0;
+}
+
+.login-info-div{
+  font-weight:bold;
+  margin:0 3rem;
+  font-size:200%;
+  font-family: Arial;
+  margin-bottom:5rem;
+  letter-spacing: .7rem;
+  color:rgba(0,0,0,.6);
+}
+.logged-user-name{
+  color:#8ebfea;
+  letter-spacing: 0;
+  font-size: 90%;
+  font-weight: 500;
+  font-family: 'Amazon Ember', sans-serif;;
+}
+
+
+.log-out-button{
+  font-weight:500;
+  font-size:80%;
+  box-shadow:0 2px 3px rgba(0,0,0,.2);
+  align-items: center;
+  display: flex;
+  height:2.5rem;
+  justify-content: center;
+  margin-top:1rem;
+  border-radius: .5rem;
+}

@@ -1,0 +1,50 @@
+.filter-div{
+  box-shadow: 0px .3px 3px 0px rgba(0, 0, 0, 0.3);
+  height:3rem;
+  display:flex;
+}
+
+
+.filter-option-div{
+  height:100%;
+  display:flex;
+  align-items:center;
+  overflow: scroll;
+  width:70%;
+  border-right:1.4px solid rgba(0,0,0,.3);
+}
+
+.filter-option-div::-webkit-scrollbar{
+  display: none;
+}
+
+.filter-option{
+  background:#f4f4f4;
+  padding:.45rem;
+  border-radius:.4rem;
+  font-size:90%;
+  margin: 0 .5rem;
+  max-width:14ch;
+  white-space: nowrap;
+}
+
+.filter-text{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  color:#007185;
+}
+
+.filter-option-active{
+  background:#e7f4f5;
+  color:#007185;
+  border:.3px solid #00718550;;
+}
+
+.aside{
+  margin:.5rem;
+  font-size:75%;
+  line-height:1.2rem;
+  color:rgba(0,0,0,.7);
+}

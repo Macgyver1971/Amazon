@@ -1,0 +1,294 @@
+.main{
+  margin:.5rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:.5rem;
+  grid-auto-rows: minmax(45vh,70vh);
+  min-height:100vh;
+}
+
+.product{
+  display:grid;
+  height:auto;
+  min-height: 90%;
+  border-radius:.5rem;
+  grid-template-rows: 4fr 6fr;
+  border:.1px solid rgba(0,0,0,.1);
+}
+
+/****||||PRODUCT IMAGE PART||||****/
+.product-image-div{
+  background:#f7f7f7;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-radius:.3rem .3rem 0 0;
+  position: relative;
+}
+
+.product-details-container{
+  border-radius:0 0 .3rem .3rem;
+}
+
+
+.image-container{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background:whitesmoke;
+  width:90%;
+  height:90%;
+}
+
+.image-container img{
+  width:100%;
+  height:auto;
+}
+
+
+.lens-icon-div{
+  position: absolute;
+  background:white;
+  height:2rem;
+  width:2rem;
+  left:.5rem;
+  bottom:.4rem;
+  border-radius: 50%;
+  box-shadow:0 0 5px rgba(0,0,0,.2);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.lens-icon-div img{
+  width:65%;
+  height:auto;
+  object-fit: contain;
+}
+
+
+
+/****||||PRODUCT DETAILS||||****/
+.product-details{
+  margin:.5rem;
+}
+
+/****||||COLOR SELECTION PART||||****/
+.product-color-selection{
+  display:flex;
+  gap:1rem;
+  align-items:center;
+  justify-content: center;
+  margin:1.5rem 0 .5rem 0;
+}
+
+
+.product-color-selection .product-color-circle{
+  display:flex;
+  height:1.2rem;
+  width:1.2rem;
+  border-radius: 50%;
+}
+
+.product-color-active{
+  outline:1px solid black;
+  outline-offset: .15rem;
+}
+
+.product-color-dark-gray{
+  background:#535353;
+}
+
+.product-color-dark-golden{
+  background: #8c6f00;
+}
+
+.product-color-dark-blue{
+  background: #202042;
+}
+
+.product-color-light-slate{
+  background:#778889;
+}
+
+.product-color-light-pink{
+  background:#c6a9c6;
+}
+.product-color-lighter-pink{
+  background:#d3c2d3;
+}
+.product-color-dark-slate{
+  background:#596e6f;
+}
+.product-color-darker-gray{
+  background:#838996;
+}
+.product-color-red{
+  background:#f64f3e;
+}
+.product-color-cream-white{
+  background:palegoldenrod;
+}
+.product-color-pumpkin-white{
+  background:#fbe7a1;
+}
+.product-color-beige{
+  background:rgb(252,233,165);
+}
+.product-color-black{
+  background:rgba(0,0,0,.7);
+}
+.product-color-stone-gray{
+  background:#928E85;
+}
+.product-color-cream-white{
+  background:#FCFBF4;
+}
+.product-color-white{
+  background:#FCFBF4;
+}
+.product-color-light-gray{
+  background:lightgrey;
+}
+
+
+/****||||COLOR SELECTION PART ENDS||||****/
+
+
+.product-name{
+  font-size:92%;
+  color:rgba(0,0,0,.8);
+  line-height:1.3rem;
+  padding:.2rem 0;
+}
+
+.product-special-tag{
+  font-size:70%;
+  background:#eff2f1;
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  padding:.1rem .35rem;
+}
+
+.product-options{
+  font-size:80%;
+  padding:.5rem 0;
+}
+
+.rating-stats-div{
+  display:grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  align-items:center;
+}
+
+.average-rating{
+  color:#007185;
+  font-size:85%;
+}
+
+.rating-count{
+  font-size:80%;
+  font-weight: 300;
+}
+
+.star-count img{
+  width:95%;
+  height:auto;
+}
+
+
+.product-price-div{
+  display:flex;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+
+
+.product-price{
+  margin:.4rem 0 0 0;
+  display:flex;
+  align-items:flex-start;
+}
+
+.price-dollar{
+  font-size:145%;
+}
+
+.dollar-sign,
+.price-cents{
+  position: relative;
+  top:.2rem;
+}
+
+
+.dollar-sign{
+  font-size:90%;
+}
+
+
+.price-cents{
+  font-size:80%;
+}
+
+.listed-price{
+  font-size:80%;
+  position: relative;
+  bottom:0.14rem;
+  margin-left:.3rem;
+  font-weight: 300;
+  color:rgba(0,0,0,.7);
+}
+
+.listed-price-strike{
+  text-decoration: line-through;
+  text-decoration-thickness: .5px;
+}
+
+.delivery-date-div{
+  display:flex;
+  white-space: nowrap;
+  gap:.3rem;
+  margin:0 0 .5rem 0;
+}
+
+.delivery-text,
+.delivery-date{
+  font-size:90%;
+}
+
+.delivery-date{
+  font-weight: bold;
+}
+
+.delivery-charge{
+  margin-bottom:1rem;
+}
+
+
+.shipping-location{
+  font-size:80%;
+  font-weight: 300;
+  color:rgba(0,0,0,.7);
+  padding-bottom:.2rem;
+}
+
+/****||||ADD TO CART BUTTON||||****/
+.add-to-cart{
+  display:flex;
+  background:#fed813;
+  align-items: center;
+  justify-content: center;
+  padding:.55rem;
+  font-size:85%;
+  border-radius: .5rem;
+  margin:.7rem 0;
+  transition: .3s;
+}
+
+.add-to-cart:hover,
+.add-to-cart:active{
+  background:#f0b801;
+}

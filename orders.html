@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Orders</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/search.css">
+  <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/navbar-fixed.css">
+  <link rel="stylesheet" href="styles/orders-main.css">
+  <link rel="stylesheet" href="styles/order-available.css">
+</head>
+
+<body>
+  <header class="header">
+    
+    
+    <!--TOPMOST SECTION OF 3 REM-->
+    <nav class="nav">
+      
+      <!--LEFT CORNER OF NAV-->
+      <div class="nav-bar_logo">
+        <div class="nav-bar" id="js-navbar-button">
+          <div class="bar"></div>
+        </div>
+          <div class="amazon-logo">
+            <img src="logo/amazon-logo.png">
+          </div>
+      </div>
+      
+      
+      <!--RIGHT CORNER OF NAV-->
+      <div class="user-inter">
+        <!--USER ICON-->
+        <div class="user-name_icon">
+          <div class="user-name">
+            Ariful ›
+          </div>
+          <div class="user-icon">
+          <img src="logo/user-icon.png">
+          </div>
+        </div>
+        <!--CART ICON-->
+        <div class="cart-icon">
+            <img src="logo/cart-icon.png">
+            <span class="counter" id="js-cart-counter">0</span>
+        </div>
+      </div>
+      
+      
+    </nav>
+    
+    
+    <!--SEARCH BAR DIV-->
+    <div class="search-area">
+      <div class="search-input_icon">
+        <input placeholder="Search Amazon" class="input" autocapitalize="off" autocomplete="off" autoc>
+        <div class="search-icon-box">
+          <img src="logo/search-icon.png">
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main class="orders-main" id="order-main-div">
+    
+  </main>
+  
+  <div class="my-orders-available">
+  </div>
+   
+  <!--FOOTER SECTION-->
+  <footer class="footer">
+    <div class="lang_currency_country">
+      <div class="user-language">
+        <div class="globe-icon">
+          <img src="logo/globe-icon.png">
+        </div>
+        English
+      </div>
+      <div class="user-currency">
+        <span style="color:white">
+          $&nbsp;
+        </span>
+        USD - U.S. Dollar
+      </div>
+      <div class="user-country">
+        <div class="country-flag">
+          <img src="logo/us-flag-icon.png">
+        </div>
+        United States
+      </div>
+    </div>
+    <div class="switch-account">
+      Switch Accounts
+    </div>
+    <div class="sign-out">
+      Sign Out
+    </div>
+    <div class="copyright-section">
+      © 1996-2023, Amazon.com, Inc. or its affiliates
+    </div>
+  </footer>
+  
+  
+  <div class="navbar-fixed-div" id="js-navbar-fixed-div">
+    <div class="navbar-link-holder">
+      <div class="browse-amazon_account-div">
+        <div class="my-account-selection-div">
+          <div class="my-account-text">
+            Your Account
+          </div>
+          <div class="my-account-icon-div">
+            <img src="logo/user-icon.png">
+          </div>
+        </div> 
+        
+        <div class="browse-amazon-text-div">
+          <div class="browse-text">
+            Browse
+          </div>
+          <div class="Amazon-text">
+            Amazon
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="amazon-home-text_icon-div" >
+        <div class="amazon-home-text">
+          Amazon Home
+        </div>
+        <div class="home-icon-div">
+          <img src="logo/home-icon.png">
+        </div>
+      </div>
+      
+      <div class="orders_buy-again-div">
+        <div class="orders-text">
+          Orders
+        </div>
+        <div class="orders_buy-again">
+          <dov class="buy-again">
+            Buy Again
+          </dov> 
+        </div>
+      </div>
+      <div></div>
+
+    </div>
+    <div class="trasparent-div" id="js-transparent-div">
+      <div class="cross-icon-div" id="js-cross-hamburger">
+        
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+  <script src="scripts/hamburger-menu.js"></script>
+  <script src="data/products.js"></script>
+  <script src="scripts/global.js"></script>
+  <script src="data/cart.js"></script>
+  <script src="scripts/orders.js"></script>
+</body>
+</html>

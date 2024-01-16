@@ -1,0 +1,170 @@
+.navbar-fixed-div{
+  position: fixed;
+  z-index:2;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  display:grid;
+  grid-template-columns: 8fr 2fr;
+  transform: translateX(-120vw);
+  transition: .4s;
+}
+
+@keyframes slide-left{
+  0%{
+    transform:translateX(0vw);
+  }
+  100%{
+    transform:translateX(-120vw);
+  }
+}
+
+.navbar-link-holder{
+  background:white;
+  display:grid;
+  grid-template-rows: 2.5fr 1.3fr 4fr 7fr;
+}
+
+
+.trasparent-div{
+  background:rgba(0,0,0,.8);
+  display:flex;
+  justify-content: center;
+  opacity:0;
+  transition: .3s;
+}
+
+@keyframes opacity-reduce{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.browse-amazon_account-div{
+  background:#232f3f;
+  display:grid;
+  grid-template-rows: .9fr 1fr;
+  padding:0 1rem 0 1.3rem;
+  color:white;
+}
+
+.my-account-selection-div{
+  display:flex;
+  align-items:center;
+  justify-content: flex-end;
+  font-size:90%;
+}
+.my-account-icon-div{
+  height:2.3rem;
+  width:2.3rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-account-icon-div img{
+  width:100%;
+  height:auto;
+  transform: translateY(.2rem);
+}
+
+.browse-text{
+  font-weight:bold;
+  font-size:120%;
+}
+
+.Amazon-text{
+  font-size:170%;
+  transform: translateY(-.3rem);
+}
+
+.amazon-home-text_icon-div{
+  padding: 1.25rem;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amazon-home-text{
+  font-weight:bold;
+  font-size:115%;
+}
+
+.home-icon-div{
+  height:2.3rem;
+  width:2.3rem;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  transform: translateY(-.35rem);
+}
+
+.home-icon-div img{
+  width:80%;
+  height:auto;
+}
+
+.orders_buy-again-div{
+  border-top:.3rem solid #d5dbdb;
+  border-bottom:.3rem solid #d5dbdb;
+}
+
+.orders_buy-again-div{
+  display:grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.orders-text{
+  font-weight:bold;
+  font-size:115%;
+  padding: 1.25rem;
+}
+
+.orders_buy-again{
+  display:flex;
+  flex-flow: column;
+}
+
+.cross-icon-div{
+  width:2rem;
+  height:2rem;
+  display:flex;
+  margin-top:2rem;
+  justify-content: center;
+  align-content: center;
+  position:relative;
+}
+
+.cross-icon-div::before,
+.cross-icon-div::after{
+  height:1.6rem;
+  width:.12rem;
+  background:white;
+  content:"";
+  position:absolute;
+}
+
+.cross-icon-div::before{
+  transform: rotate(45deg);
+}
+
+.cross-icon-div::after{
+  transform: rotate(-45deg);
+}
+
+.your-orders:focus,
+.buy-again:focus,
+.your-orders:active,
+.buy-again:active{
+  background:#e9edee;
+  width:100%;
+}
+
+.your-orders,
+.buy-again{
+  padding:1rem 0 1rem 1.25rem;
+}
